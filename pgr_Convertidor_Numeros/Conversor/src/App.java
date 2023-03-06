@@ -9,7 +9,7 @@ public class App {
         System.out.println("############## MENU ###############");
         try{               
             while(menu == 0){
-                System.out.println("Seleccione una opción");
+                System.out.println("Seleccione una opción 🔢");
                 System.out.println("📌 1 > Conversión de Decimal a Binarios");
                 System.out.println("📌 2 > Conversión de Binario a Decimal");
                 System.out.println("📌 9 > Salir");
@@ -27,6 +27,7 @@ public class App {
                 switch(opc){
                     //##############################
                     //Converción de Decimal a Binario
+		    //##############################
                     case 1:
                     int divisor = 2;
                     int cociente = 0;
@@ -80,6 +81,7 @@ public class App {
 
                 //################################    
                 //Converción de Binario a Decinal
+		//##############################
                 case 2:
                     System.out.println("Conversión de Binario a Decimal");
                     System.out.print("Ingrese Número a Convertir: ");
@@ -90,14 +92,18 @@ public class App {
                     {
                         char  dato = Numero.charAt(i);
                         String Digito = String.valueOf(dato);
-                        if(Digito.equals("1"))
+                        if(Digito .equals("1"))
                         {
-                            nunDec = nunDec + Math.pow(dato, exp);
+                            nunDec = nunDec + Math.pow(2, exp);
                             exp ++;
-                        }else
+                        }else if(Digito .equals("0"))
                         {
                             exp ++;
-                        }
+                        }else {
+ 			numero =0;
+			System.out.println("El número ingresado no en Binari");
+			//throw new Exception("El número ingresado no en Binario");
+			}
                     }
                     System.out.println("--------------------------------------------------------------------------------------");
                     System.out.println(">> En número Binario "+ "["+Numero+"]"+ " Corresponde a "+ "["+nunDec+"]"+ " En número Decimal"); 
@@ -107,12 +113,17 @@ public class App {
                     break;    
                 //Salir
                 case 9:
-                    menu = 1;
+		    System.out.println("Hasta la próxima");
+                    System.exit(0);
                     break;
+
+		default:
+		System.out.println(" 🛑 Opción Incorrecta 🛑");
                 }        
             }
         obtener.close();
         }catch (Exception ex){
+	   	
             System.out.println("Se ha presentado un error "+ ex);       
         } 
     }
