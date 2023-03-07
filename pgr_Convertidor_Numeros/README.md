@@ -1,15 +1,13 @@
 
 
-Abrir el ejecutable
 
-![pgr_Binario_a_Decimal/Captura 4.PNG
-](https://github.com/Jarvicf/ucc.computer.arquitecture2.0/blob/main/pgr_Decimal_a_Binario/Captura%204.PNG)
+![Menu
+](https://github.com/Jarvicf/ucc.computer.arquitecture2.0/blob/main/pgr_Convertidor_Numeros/Conversor/Menu.PNG)
 
-Ingresar el número al que se desea realizar la conversión.
+Selecionar la opción
 
-![pgr_Binario_a_Decimal/Captura 3.PNG
-](https://github.com/Jarvicf/ucc.computer.arquitecture2.0/blob/main/pgr_Decimal_a_Binario/Captura%203.PNG)
+![Conversión Decimal a Binario
+](https://github.com/Jarvicf/ucc.computer.arquitecture2.0/blob/main/pgr_Convertidor_Numeros/Conversor/Decimal%20a%20Binario.PNG)
 
-Presionar el Boton para obtener el resultado
-![pgr_Binario_a_Decimal/Captura 2.PNG
-](https://github.com/Jarvicf/ucc.computer.arquitecture2.0/blob/main/pgr_Decimal_a_Binario/Captura%202.PNG)
+![Conversión Binario a Decimal
+](https://github.com/Jarvicf/ucc.computer.arquitecture2.0/blob/main/pgr_Convertidor_Numeros/Conversor/Binario%20a%20Decimal.PNG)
