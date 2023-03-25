@@ -7,17 +7,30 @@ Selecionar la opción que desea realizar
 
 
 
-## Folder Structure
+## Conversor de Decimal a Octal
 
-The workspace contains two folders by default, where:
+Ingrese un número decimal que desea convertir
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+![Menu
+](https://github.com/Jarvicf/ucc.computer.arquitecture2.0/blob/main/pgr_Convertidor_Numeros/ConvesorOctal/Imagenes/2.PNG)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Y acontinuación le mostrará el resultado de la conversión.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+![Menu
+](https://github.com/Jarvicf/ucc.computer.arquitecture2.0/blob/main/pgr_Convertidor_Numeros/ConvesorOctal/Imagenes/3.PNG)
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
+## Conversor de Octal a Decimal
+
+Ingrese un número octal que desea convertir
+
+![Menu
+](https://github.com/Jarvicf/ucc.computer.arquitecture2.0/blob/main/pgr_Convertidor_Numeros/ConvesorOctal/Imagenes/4.PNG)
+
+Y a continuación le mostrará el resultado de la conversión.
+
+![Menu
+](https://github.com/Jarvicf/ucc.computer.arquitecture2.0/blob/main/pgr_Convertidor_Numeros/ConvesorOctal/Imagenes/5.PNG)
+
