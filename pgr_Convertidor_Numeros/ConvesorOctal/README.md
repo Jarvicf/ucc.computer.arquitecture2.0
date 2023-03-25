@@ -2,7 +2,10 @@
 
 Selecionar la opción que desea realizar
 
-https://github.com/Jarvicf/ucc.computer.arquitecture2.0/blob/main/pgr_Convertidor_Numeros/ConvesorOctal/Imagenes/1.PNG
+![Menu
+](https://github.com/Jarvicf/ucc.computer.arquitecture2.0/blob/main/pgr_Convertidor_Numeros/ConvesorOctal/Imagenes/1.PNG)
+
+
 
 ## Folder Structure
 
