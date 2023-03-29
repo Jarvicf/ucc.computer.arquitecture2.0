@@ -25,7 +25,7 @@ public class App {
                 leer.close();
 
                 if(numero >= 0){
-                    System.out.println("El numero decimal "+ numero + " corresponde a "+ General.decimalAOctal(numero) + " en octal");
+                    System.out.println("El numero decimal "+ numero + " corresponde a "+ obGeneral.decimalAOctal(numero) + " en octal");
                 }else{
                     System.out.println("❌ Numero Ingresado debe ser positivo");
                 }
@@ -37,7 +37,7 @@ public class App {
                 leer.close();
 
                 if(General.VerificarNumero(numero)){
-                    System.out.println("El numero octal "+ numero + " corresponde a "+ General.octalADecimal(String.valueOf(numero))+ " en decimal");
+                    System.out.println("El numero octal "+ numero + " corresponde a "+ obGeneral .octalADecimal(String.valueOf(numero))+ " en decimal");
                 }else{
                     System.out.println("❌ Numero Ingresado no es Octal");
                 }
