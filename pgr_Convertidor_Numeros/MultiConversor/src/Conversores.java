@@ -35,6 +35,17 @@ public class Conversores {
         }
         return nunDec;
     }
+
+    public boolean contieneSoloLetras(String cadena) {
+        for (int x = 0; x < cadena.length(); x++) {
+            char c = cadena.charAt(x);
+            // Si no está entre a y z, ni entre A y Z, ni es un espacio
+            if (!((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || c == ' ')) {
+                return false;
+            }
+        }
+        return true;
+    }
         
     //Metodo octal 
      public long convertir_octal_Decimal(String octal) {
@@ -211,16 +222,18 @@ public class Conversores {
                 Resultado = Resultado + hex;                                
                 operar = "N";
             }
-        }
-        Resultado = Resultado + cociente;
+        }        
+            Resultado = Resultado + cociente;
+          
+         //Invertir numero
+         for(int i = Resultado.length() -1;i>0 -1;i--)
+         {
+             char Digito = Resultado.charAt(i);
+             //System.out.print(Digito);
+             Hexa = Hexa + Digito;
+         }
 
-        //Invertir numero
-        for(int i = Resultado.length() -1;i>0 -1;i--)
-            {
-                char Digito = Resultado.charAt(i);
-                //System.out.print(Digito);
-                Hexa = Hexa + Digito;
-            }
+        
         return Hexa;
     }
 }
