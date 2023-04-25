@@ -46,7 +46,11 @@ public class App {
                     System.out.print("-->");
                     String DatoC2 = capturar.next();
                     //Resultado
+                    if (!conversores.contieneSoloLetras(DatoC2)) {
                     System.out.println("😀>> En número binario "+ verde +"["+DatoC2+"]"+ reset+" Corresponde a "+ verde+"["+ conversores.convertir_Binario_Decimal(DatoC2)+"]"+ reset+" En número decimal 😀"); 
+                    }else{
+                    System.out.println(rojo + ">> ❌ Numero Ingresado no es un numero binario " + verde+"["+DatoC2+"]" + reset);    
+                    }
                     System.out.println();    
                         break;
                     case 3:
@@ -97,8 +101,8 @@ public class App {
                 }
                 
             } catch (InputMismatchException e) {
-                System.out.println("Debes insertar un número");
-                capturar.next();
+                System.out.println(rojo + "Debes insertar un número" + reset);
+                System.out.println();
             }
             
         }
